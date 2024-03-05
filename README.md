@@ -3,7 +3,7 @@
 #Build    
 $docker build -t pythonapp:latest    
 $docker images    
-$docker tag "your_username/pythonapp:latest" "python:latest"   
+$docker tag "pythonapp:latest" "your_username/pythonapp:latest"    
     
 #Ship    
 $docker login    
